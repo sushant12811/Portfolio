@@ -1,0 +1,135 @@
+
+body{
+    background-color: FFE7CC;
+    margin: 0;
+    
+}
+
+.nav-bar{
+    display:flex;
+    gap:50px;
+    justify-content:flex-end;
+    background-color: #f4a768;
+    height: 40px;
+    padding: 10px;
+
+}
+.nav-item a{
+    text-decoration: none;
+    color: FFFBEB;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    margin:0;
+    padding: 0;
+}
+
+.profile-img img{
+    border: 5px solid #F8CBA6;
+    border-radius: 50%;
+    
+ 
+
+}
+
+.hero-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    height: 80vh;
+    background: linear-gradient(300deg, #9e722c, #f5d09a, #e83c26);
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+        
+      }
+      
+      @keyframes gradient-animation {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+
+.brief{
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    color: #a36532;
+    
+    
+}
+
+.contact-me{
+    background-color: #f8dc4d;
+    width: 150px;
+    height: 50px;
+    border-style: outset;
+    border: solid 3px #9e722c;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.contact-me:hover{
+    background-color: rgb(232, 170, 77);
+    color: white;
+}
+
+.contact-me > a{
+    text-decoration: none;
+    color: #a36532;
+    
+}
+
+
+
+
+.skill-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+
+.skill-section a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family:'Quicksand', sans-serif ;
+    font-weight: bold;
+    color: a36532;
+}
+
+.skill-section a img{
+    height: 30px;
+    
+}
+
+p{
+    color: #a36532;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.footer-class > a >img{
+    height: 40px;
+    margin: 10px;
+}
+
+.reserved-section{
+    background-color: #e3c493;
+         height:40px;
+         padding: 10px;
+}
