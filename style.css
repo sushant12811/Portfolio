@@ -1,6 +1,6 @@
 
 body{
-    background-color: FFE7CC;
+    background-color: rgb(255, 255, 255);
     margin: 0;
     
 }
@@ -8,19 +8,24 @@ body{
 .nav-bar{
     display:flex;
     gap:50px;
-    justify-content:flex-end;
-    background-color: #f4a768;
-    height: 40px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 1;
     padding: 10px;
 
 }
 .nav-item a{
     text-decoration: none;
-    color: FFFBEB;
+    color: white;
     font-size: 25px;
     font-family: 'Quicksand', sans-serif;
     margin:0;
     padding: 0;
+}
+
+.nav-item:hover{
+    font-weight:bold;
+
 }
 
 .profile-img img{
@@ -38,7 +43,7 @@ body{
     align-items: center;
     gap:30px;
     height: 80vh;
-    background: linear-gradient(300deg, #9e722c, #f5d09a, #e83c26);
+    background: linear-gradient(300deg, #100f0f, #323232, #342927);
     background-size: 180% 180%;
     animation: gradient-animation 10s ease infinite;
         
@@ -59,32 +64,36 @@ body{
 .brief{
     font-size: 25px;
     font-family: 'Quicksand', sans-serif;
-    color: #a36532;
+    color: #ffffff;
     
     
 }
 
 .contact-me{
-    background-color: #f8dc4d;
+    background-color: #20db35;
     width: 150px;
     height: 50px;
     border-style: outset;
-    border: solid 3px #9e722c;
+    border: solid 3px #ffffff;
     text-align: center;
     padding-top: 10px;
+    border-radius: 10px;
 
 }
 
 .contact-me:hover{
     background-color: rgb(232, 170, 77);
-    color: white;
+    font-weight: bold;
+
 }
 
 .contact-me > a{
     text-decoration: none;
-    color: #a36532;
+    color: #ffffff;
     
 }
+
+
 
 
 
@@ -103,7 +112,7 @@ body{
     font-size: 30px;
     font-family:'Quicksand', sans-serif ;
     font-weight: bold;
-    color: a36532;
+    color: black;
 }
 
 .skill-section a img{
@@ -112,7 +121,7 @@ body{
 }
 
 p{
-    color: #a36532;
+    color: rgb(160, 159, 159);
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -129,7 +138,7 @@ p{
 }
 
 .reserved-section{
-    background-color: #e3c493;
-         height:40px;
-         padding: 10px;
+    background-color: #000000;
+         height:30px;
+         text-align: center;
 }
