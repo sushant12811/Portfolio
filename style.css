@@ -43,7 +43,7 @@ body{
     align-items: center;
     gap:30px;
     height: 80vh;
-    background: linear-gradient(300deg, #100f0f, #323232, #342927);
+    background: linear-gradient(300deg, black, #2a2a2a, #393433);
     background-size: 180% 180%;
     animation: gradient-animation 10s ease infinite;
         
@@ -94,19 +94,23 @@ body{
 }
 
 
-
-
-
-
 .skill-container{
+    margin-top: 20px;
     display: flex;
-    flex-flow: row wrap;
     justify-content: center;
-    justify-content: space-between;
-    margin: 20px;
+    padding: 30px;
+    background-color:#d3d1cd;
+    color: black;
 
 }
 
+.skill-section {
+    margin: 20px;
+    background-color: #EEF7FF;
+    text-align: center;
+    padding: 50px;
+    border-radius: 20px;
+}
 .skill-section a{
     text-decoration: none;
     font-size: 30px;
@@ -116,6 +120,7 @@ body{
 }
 
 .skill-section a img{
+
     height: 30px;
     
 }
