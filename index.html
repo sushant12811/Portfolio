@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,58 +10,118 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-<!-- Nav -->
-<section id = "navbar">
-<div class="nav-bar">
-<div class = "nav-item"><a href="">Home</a></div>
-<div class = "nav-item"><a href="">Work</a></div>
-<div class = "nav-item"><a href="">About me</a></div>
+    <!-- Nav -->
+    <nav class = "nav">
+        <a class = "nav-link" href="">Home</a>
+        <a class = "nav-link" href="">Work</a>
+        <a class = "nav-link" href="#about-me-h1">About me</a>
+    </nav>
 
-</div>
-    </section>
-    
-    <!-- heroes section -->
-    <section id ="heroes-profile">
-    <div class="hero-container">
-    <div class="profile-img"><img src="./Image/profile.JPG" height="400" alt="profile-photo"></div>
-    <div class="brief">
-        <h1>Sushant Dhakal</h1>
-        <p>"Unlocking the limitless possibilities of the online world."
-    </p>
-    <div class="Contact-me "> <a href="./resume.html">Contact me</a></div>
-
-</div>
-    </div>
-</section>
+        <!-- Main Section -->
+        <main class = "main">
+            <section class = "image-section">
+                    <img src="Image/WallImage.png" height="400" alt="Image-photo">
+                    <div class="brief">
+                        <h1>Sushant Dhakal</h1>
+                        <p>"Unlocking the limitless possibilities of the online world."</p>
+                        <div class="Contact-me "> <a href="./resume.html">Contact me</a></div>
+                    </div>
+            </section>
 
 
- <!-- Work section -->
+            <!-- Work section -->
 
-<section class="skill">
+            <section class="skill">
 
-    <div class= skill-container>
+                <div class=skill-container>
 
-        <div class = "skill-section"><a href="./resume.html"><img src="./svg/file-person-fill.svg" alt="resume">My Resume</a>
-        <p>This is my first simple resume project </br>that I have learnt from crash course.</p>
-        </div>
-        <div class="skill-section"><a href="https://www.canva.com/design/DAFn5vCHsaM/uXqGuOOIfU1Obl9PrWU_rA/view?website#4:hotel-mountain"> <img src="./svg/palette-fill.svg" alt="design">My Design</a>
-        <p>Design which actually built with the </br>use of canva. This is my first ever hotel design.</p></div>
-        <div class="skill-section"><a href="https://sushant12811.github.io/Bootstrap-examples/"> <img src="./svg/pencil-square.svg" alt="project">My Project</a>
-        <p>Love dog website just using bootstrap </br> examples and contents. This project is </br> actually a reference from this course. </br>Thank you Mrs. Angela yu.</p>
-        </div>
-        </div>
-</section>
+                    <a href="./resume.html" class="skill-section"><img src="./svg/file-person-fill.svg"
+                                alt="resume">My Resume
+                        <p>This is my first simple resume project </br>that I have learnt from crash course.</p></a>
+                
+                    <a href="https://www.canva.com/design/DAFn5vCHsaM/uXqGuOOIfU1Obl9PrWU_rA/view?website#4:hotel-mountain"
+                        class ="skill-section" >
+                            <img src="./svg/palette-fill.svg" alt="design">My Design
+                        <p>Design which actually built with the </br>use of canva. This is my first ever hotel design.
+                        </p>
+                    </a>
+                    <a href="https://sushant12811.github.io/Bootstrap-examples/" class="skill-section"> <img
+                                src="./svg/pencil-square.svg" alt="project">My Project
+                        <p>Love dog website just using bootstrap </br> examples and contents. This project is </br>
+                            actually a reference from this course. </br>Thank you Mrs. Angela yu.</p>
+                        </a>
+                </div>
+            </section>
 
-<section id = "footer">
-    <div class="footer-container">
-        <footer class ="footer-class">
-<a href="https://www.facebook.com"><img src="./svg/facebook.svg" alt=""></a>
-<a href="https://www.instagram.com"><img src="./svg/instagram.svg" alt=""></a>
-<a href="https://www.linkedin.com"><img src="./svg/linkedin.svg" alt=""></a>
+        </main>
+
+        <!-- About me - Article -->
+        <article class = "about-me">
+            <h1 class = "h1">About Me</h1>
+            <aside>
+                <img src="Image/holdingPhone.png" height="400" width="350"  alt="holding-phone">
+                <p>Recent Mobile App Development graduate with top grades and a passion for building iOS apps <br>
+                    using Swift & SwiftUI. Developed multiple projects during studies, including own projects to<br>
+                    build basic foundation in mobile application development. Strong foundation in UIKit, Core Data,<br>
+                    and MVVM architecture. Quick learner, problem-solver, and team player eager to start my career in<br>
+                    iOS development. Committed to writing clean, efficient code and staying updated with Apple's latest technologies.
+                </p>
+            </aside>
+        </article>
+
+        <section class="work-section">
+            <h1 class="h1">My Work</h1>
+            <div class="work-flex">
+            <div class = "work">
+            <a href="https://github.com/sushant12811/IOS-Practice-SwiftUI/tree/main/MovieMania" alt = "">
+                <img src="Image/movie.png" height="300" width="300" alt=""/>
+                <p class = "work-title">MovieMania</p>
+                <p class="work-content"> TMDB API integrated and Firebase for Database</p>
+            </a>
+            <a href="https://github.com/sushant12811/Songs-Chords-Nepali_API" alt = "">
+                <img src="Image/chord.png" height="300" width="300" alt=""/>
+                <p class = "work-title">SongsChordsIOS</p>
+            </a>
+            <a href="https://github.com/sushant12811/MyMovie" alt = "">
+                <img src="Image/androidMovie.png" height="300" width="300"alt=""/>
+                <p class = "work-title">MyMovie(Android)</p>
+            </a>
+            <a href="https://sushant12811.github.io/MDEV1005-24S-31359-Assignments/" alt = "">
+                <img src="Image/hospital.png" height="300" width="300" alt=""/>
+                <p class = "work-title">Hospital Website</p>
+            </a>
+            <a href="https://sushant12811.github.io/html-css-only/" alt = "">
+                <img src="Image/furniture.png" height="300" width="300" alt=""/>
+                <p class = "work-title">Furniture Website</p>
+            </a>
+            <a href="https://github.com/sushant12811/myFirstCardGame" alt = "">
+                <img src="Image/cards.png" height="300" width="300" alt=""/>
+                <p class = "work-title">First Card Game</p>
+            </a>
+            </div>
+            </div>
+        </section>
+
+        <!--Footer-->
+        <footer class="footer-class">
+            <section id="footer">
+                <div class="footer-container">
+                    <a href="https://www.facebook.com"><img src="./svg/facebook.svg" alt="fb"></a>
+                    <a href="https://www.instagram.com"><img src="./svg/instagram.svg" alt="Ins"></a>
+                     <a href="https://www.linkedin.com"><img src="./svg/linkedin.svg" alt="ld"></a>
+                </div>
+                <div class="reserved-section">
+                    <p>@2023 Sushant Dhakal</p>
+                </div>
+            </section>
         </footer>
-    </div>
-<div class="reserved-section"><p>@2023 Sushant Dhakal</p></div>
-</section>
 </body>
+
+<script>
+
+
+    
+</script>
 </html>
