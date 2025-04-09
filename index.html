@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./Css/style.css">
 </head>
 
 <body>
@@ -22,11 +22,11 @@
         <!-- Main Section -->
         <main class = "main">
             <section class = "image-section">
-                    <img src="Image/WallImage.png" height="400" alt="Image-photo">
+                    <img src="./Assets/Image/WallImage.png" height="400" alt="Image-photo">
                     <div class="brief">
                         <h1>Sushant Dhakal</h1>
                         <p>"Unlocking the limitless possibilities of the online world."</p>
-                        <div class="Contact-me "> <a href="./resume.html">Contact me</a></div>
+                        <div class="Contact-me "> <a href="./HTML/resume.html">Contact me</a></div>
                     </div>
             </section>
 
@@ -37,18 +37,18 @@
 
                 <div class=skill-container>
 
-                    <a href="./resume.html" class="skill-section"><img src="./svg/file-person-fill.svg"
+                    <a href="./HTML/resume.html" class="skill-section"><img src="./Assets/svg/file-person-fill.svg"
                                 alt="resume">My Resume
                         <p>This is my first simple resume project </br>that I have learnt from crash course.</p></a>
                 
                     <a href="https://www.canva.com/design/DAFn5vCHsaM/uXqGuOOIfU1Obl9PrWU_rA/view?website#4:hotel-mountain"
                         class ="skill-section" >
-                            <img src="./svg/palette-fill.svg" alt="design">My Design
+                            <img src="./Assets/svg/palette-fill.svg" alt="design">My Design
                         <p>Design which actually built with the </br>use of canva. This is my first ever hotel design.
                         </p>
                     </a>
                     <a href="https://sushant12811.github.io/Bootstrap-examples/" class="skill-section"> <img
-                                src="./svg/pencil-square.svg" alt="project">My Project
+                                src="./Assets/svg/pencil-square.svg" alt="project">My Project
                         <p>Love dog website just using bootstrap </br> examples and contents. This project is </br>
                             actually a reference from this course. </br>Thank you Mrs. Angela yu.</p>
                         </a>
@@ -61,13 +61,20 @@
         <article id = "about-me">
             <h1 class = "h1">About Me</h1>
             <aside>
-                <img id  src="Image/holdingPhone.png" height="400" width="350"  alt="holding-phone">
+                <img id  src="./Assets/Image/holdingPhone.png" height="400" width="350"  alt="holding-phone">
+                <video height = "400" width="200" autoplay muted loop playsinline>
+                    <source src="./Assets/Video/movieVideo.mp4" type="video/mp4" >
+                </video>
+                <div>
                 <p>Recent Mobile App Development graduate with top grades and a passion for building iOS apps <br>
                     using Swift & SwiftUI. Developed multiple projects during studies, including own projects to<br>
                     build basic foundation in mobile application development. Strong foundation in UIKit, Core Data,<br>
                     and MVVM architecture. Quick learner, problem-solver, and team player eager to start my career in<br>
                     iOS development. Committed to writing clean, efficient code and staying updated with Apple's latest technologies.
                 </p>
+                <button><a href="certificate.html"> >> Certification</a></button>
+                </div>
+                
             </aside>
         </article>
 
@@ -76,36 +83,36 @@
             <div class="work-flex">
             <div class = "work">
             <a href="https://github.com/sushant12811/IOS-Practice-SwiftUI/tree/main/MovieMania" alt = "">
-                <img src="Image/movie.png" height="300" width="300" alt=""/>
+                <img src="./Assets/Image/movie.png" height="300" width="300" alt=""/>
                 <p class = "work-title">MovieMania</p>
                 <p class="work-content"> TMDB API integrated and Firebase for Database</p>
             </a>
             <a href="https://github.com/sushant12811/Songs-Chords-Nepali_API" alt = "">
-                <img src="Image/chord.png" height="300" width="300" alt=""/>
+                <img src="./Assets/Image/chord.png" height="300" width="300" alt=""/>
                 <p class = "work-title">SongsChordsIOS</p>
                 <p class="work-content"> Custom API using TypeScript(Backend)</p>
 
             </a>
             <a href="https://github.com/sushant12811/MyMovie" alt = "">
-                <img src="Image/androidMovie.png" height="300" width="300"alt=""/>
+                <img src="./Assets/Image/androidMovie.png" height="300" width="300"alt=""/>
                 <p class = "work-title">MyMovie(Android)</p>
                 <p class="work-content"> Browse movie, created with Java(Android)</p>
 
             </a>
             <a href="https://sushant12811.github.io/MDEV1005-24S-31359-Assignments/" alt = "">
-                <img src="Image/hospital.png" height="300" width="300" alt=""/>
+                <img src="./Assets/Image/hospital.png" height="300" width="300" alt=""/>
                 <p class = "work-title">Hospital Website</p>
                 <p class="work-content">Individual college assignment-HTML & CSS</p>
 
             </a>
             <a href="https://sushant12811.github.io/html-css-only/" alt = "">
-                <img src="Image/furniture.png" height="300" width="300" alt=""/>
+                <img src="./Assets/Image/furniture.png" height="300" width="300" alt=""/>
                 <p class = "work-title">Furniture Website</p>
                 <p class="work-content"> Webdesign practice- HTML & CSS</p>
 
             </a>
             <a href="https://github.com/sushant12811/myFirstCardGame" alt = "">
-                <img src="Image/cards.png" height="300" width="300" alt=""/>
+                <img src="./Assets/Image/cards.png" height="300" width="300" alt=""/>
                 <p class = "work-title">First Card Game</p>
                 <p class="work-content"> First ever IOS app-Card game</p>
 
@@ -118,9 +125,9 @@
         <footer class="footer-class">
             <section id="footer">
                 <div class="footer-container">
-                    <a href="https://www.facebook.com"><img src="./svg/facebook.svg" alt="fb"></a>
-                    <a href="https://www.instagram.com"><img src="./svg/instagram.svg" alt="Ins"></a>
-                     <a href="https://www.linkedin.com"><img src="./svg/linkedin.svg" alt="ld"></a>
+                    <a href="https://www.facebook.com"><img src="./Assets/svg/facebook.svg" alt="fb"></a>
+                    <a href="https://www.instagram.com"><img src="./Assets/svg/instagram.svg" alt="Ins"></a>
+                     <a href="https://www.linkedin.com"><img src="./Assets/svg/linkedin.svg" alt="ld"></a>
                 </div>
                 <div class="reserved-section">
                     <p>@2023 Sushant Dhakal</p>
